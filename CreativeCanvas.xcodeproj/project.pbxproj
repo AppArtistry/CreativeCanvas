@@ -11,6 +11,7 @@
 		F27E468429B567900026119D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E468329B567900026119D /* ContentView.swift */; };
 		F27E468629B567910026119D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27E468529B567910026119D /* Assets.xcassets */; };
 		F27E468A29B567910026119D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27E468929B567910026119D /* Preview Assets.xcassets */; };
+		F27E469129B577080026119D /* RainbowLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E469029B577080026119D /* RainbowLoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		F27E468529B567910026119D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F27E468729B567910026119D /* CreativeCanvas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CreativeCanvas.entitlements; sourceTree = "<group>"; };
 		F27E468929B567910026119D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F27E469029B577080026119D /* RainbowLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowLoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				F27E468529B567910026119D /* Assets.xcassets */,
 				F27E468729B567910026119D /* CreativeCanvas.entitlements */,
 				F27E468829B567910026119D /* Preview Content */,
+				F27E469029B577080026119D /* RainbowLoadingView.swift */,
 			);
 			path = CreativeCanvas;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				F27E468429B567900026119D /* ContentView.swift in Sources */,
 				F27E468229B567900026119D /* CreativeCanvasApp.swift in Sources */,
+				F27E469129B577080026119D /* RainbowLoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +271,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CreativeCanvas/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CCanvas;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -303,6 +308,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CreativeCanvas/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CCanvas;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
