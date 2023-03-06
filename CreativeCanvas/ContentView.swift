@@ -14,7 +14,6 @@ struct ContentView: View {
                 } label: {
                     Text("🌈 Loading...")
                 }
-
             }
             .navigationTitle("CreativeCanvas")
         }

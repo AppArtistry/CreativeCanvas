@@ -9,7 +9,7 @@ struct RainbowLoadingView: View {
     @State private var startAnimation = false
     private let anchor = UnitPoint(x: 0.75, y: 0.07)
     private let initialDegree = 60.0
-    private let animation = Animation.linear(duration: 1).repeatForever(autoreverses: false)
+    private let animation = Animation.linear(duration: 2).repeatForever(autoreverses: false)
 
     var body: some View {
         ZStack {
