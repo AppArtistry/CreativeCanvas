@@ -6,10 +6,10 @@
 import SwiftUI
 
 struct RainbowLoadingView: View {
-    @State var startAnimation = false
-    let anchor = UnitPoint(x: 0.75, y: 0.07)
-    let initialDegree = 60.0
-    let animation = Animation.linear(duration: 1).repeatForever(autoreverses: false)
+    @State private var startAnimation = false
+    private let anchor = UnitPoint(x: 0.75, y: 0.07)
+    private let initialDegree = 60.0
+    private let animation = Animation.linear(duration: 1).repeatForever(autoreverses: false)
 
     var body: some View {
         ZStack {
@@ -44,7 +44,7 @@ struct CircleMask: Shape {
         path.addPath(
             Circle()
                 .path(in: rect.inset(by: UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0))
-            .offsetBy(dx: 50, dy: 0)))
+                    .offsetBy(dx: 50, dy: 0)))
         return path
     }
 }
@@ -59,8 +59,10 @@ struct HalfCircle: View {
             )
     }
 }
+
 struct RainbowLoadingView_Previews: PreviewProvider {
     static var previews: some View {
         RainbowLoadingView()
+            .preferredColorScheme(.dark)
     }
 }
