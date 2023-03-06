@@ -1,12 +1,12 @@
 //
-//  AppArtistryCreativeSuiteApp.swift
-//  AppArtistryCreativeSuite
+//  CreativeCanvasApp.swift
+//  CreativeCanvas
 //
 
 import SwiftUI
 
 @main
-struct AppArtistryCreativeSuiteApp: App {
+struct CreativeCanvasApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2A35B8029B4B8B6004F4CF6 /* AppArtistryCreativeSuiteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A35B7F29B4B8B6004F4CF6 /* AppArtistryCreativeSuiteApp.swift */; };
-		F2A35B8229B4B8B6004F4CF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A35B8129B4B8B6004F4CF6 /* ContentView.swift */; };
-		F2A35B8429B4B8B7004F4CF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A35B8329B4B8B7004F4CF6 /* Assets.xcassets */; };
-		F2A35B8829B4B8B7004F4CF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A35B8729B4B8B7004F4CF6 /* Preview Assets.xcassets */; };
+		F27E468229B567900026119D /* CreativeCanvasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E468129B567900026119D /* CreativeCanvasApp.swift */; };
+		F27E468429B567900026119D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E468329B567900026119D /* ContentView.swift */; };
+		F27E468629B567910026119D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27E468529B567910026119D /* Assets.xcassets */; };
+		F27E468A29B567910026119D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27E468929B567910026119D /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F2A35B7C29B4B8B6004F4CF6 /* AppArtistryCreativeSuite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppArtistryCreativeSuite.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2A35B7F29B4B8B6004F4CF6 /* AppArtistryCreativeSuiteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppArtistryCreativeSuiteApp.swift; sourceTree = "<group>"; };
-		F2A35B8129B4B8B6004F4CF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F2A35B8329B4B8B7004F4CF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F2A35B8529B4B8B7004F4CF6 /* AppArtistryCreativeSuite.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppArtistryCreativeSuite.entitlements; sourceTree = "<group>"; };
-		F2A35B8729B4B8B7004F4CF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F27E467E29B567900026119D /* CreativeCanvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreativeCanvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27E468129B567900026119D /* CreativeCanvasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativeCanvasApp.swift; sourceTree = "<group>"; };
+		F27E468329B567900026119D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F27E468529B567910026119D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F27E468729B567910026119D /* CreativeCanvas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CreativeCanvas.entitlements; sourceTree = "<group>"; };
+		F27E468929B567910026119D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F2A35B7929B4B8B6004F4CF6 /* Frameworks */ = {
+		F27E467B29B567900026119D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,38 +33,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F2A35B7329B4B8B6004F4CF6 = {
+		F27E467529B567900026119D = {
 			isa = PBXGroup;
 			children = (
-				F2A35B7E29B4B8B6004F4CF6 /* AppArtistryCreativeSuite */,
-				F2A35B7D29B4B8B6004F4CF6 /* Products */,
+				F27E468029B567900026119D /* CreativeCanvas */,
+				F27E467F29B567900026119D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F2A35B7D29B4B8B6004F4CF6 /* Products */ = {
+		F27E467F29B567900026119D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F2A35B7C29B4B8B6004F4CF6 /* AppArtistryCreativeSuite.app */,
+				F27E467E29B567900026119D /* CreativeCanvas.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F2A35B7E29B4B8B6004F4CF6 /* AppArtistryCreativeSuite */ = {
+		F27E468029B567900026119D /* CreativeCanvas */ = {
 			isa = PBXGroup;
 			children = (
-				F2A35B7F29B4B8B6004F4CF6 /* AppArtistryCreativeSuiteApp.swift */,
-				F2A35B8129B4B8B6004F4CF6 /* ContentView.swift */,
-				F2A35B8329B4B8B7004F4CF6 /* Assets.xcassets */,
-				F2A35B8529B4B8B7004F4CF6 /* AppArtistryCreativeSuite.entitlements */,
-				F2A35B8629B4B8B7004F4CF6 /* Preview Content */,
+				F27E468129B567900026119D /* CreativeCanvasApp.swift */,
+				F27E468329B567900026119D /* ContentView.swift */,
+				F27E468529B567910026119D /* Assets.xcassets */,
+				F27E468729B567910026119D /* CreativeCanvas.entitlements */,
+				F27E468829B567910026119D /* Preview Content */,
 			);
-			path = AppArtistryCreativeSuite;
+			path = CreativeCanvas;
 			sourceTree = "<group>";
 		};
-		F2A35B8629B4B8B7004F4CF6 /* Preview Content */ = {
+		F27E468829B567910026119D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				F2A35B8729B4B8B7004F4CF6 /* Preview Assets.xcassets */,
+				F27E468929B567910026119D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -72,39 +72,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F2A35B7B29B4B8B6004F4CF6 /* AppArtistryCreativeSuite */ = {
+		F27E467D29B567900026119D /* CreativeCanvas */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2A35B8B29B4B8B7004F4CF6 /* Build configuration list for PBXNativeTarget "AppArtistryCreativeSuite" */;
+			buildConfigurationList = F27E468D29B567910026119D /* Build configuration list for PBXNativeTarget "CreativeCanvas" */;
 			buildPhases = (
-				F2A35B7829B4B8B6004F4CF6 /* Sources */,
-				F2A35B7929B4B8B6004F4CF6 /* Frameworks */,
-				F2A35B7A29B4B8B6004F4CF6 /* Resources */,
+				F27E467A29B567900026119D /* Sources */,
+				F27E467B29B567900026119D /* Frameworks */,
+				F27E467C29B567900026119D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AppArtistryCreativeSuite;
-			productName = AppArtistryCreativeSuite;
-			productReference = F2A35B7C29B4B8B6004F4CF6 /* AppArtistryCreativeSuite.app */;
+			name = CreativeCanvas;
+			productName = CreativeCanvas;
+			productReference = F27E467E29B567900026119D /* CreativeCanvas.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F2A35B7429B4B8B6004F4CF6 /* Project object */ = {
+		F27E467629B567900026119D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					F2A35B7B29B4B8B6004F4CF6 = {
+					F27E467D29B567900026119D = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = F2A35B7729B4B8B6004F4CF6 /* Build configuration list for PBXProject "AppArtistryCreativeSuite" */;
+			buildConfigurationList = F27E467929B567900026119D /* Build configuration list for PBXProject "CreativeCanvas" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,42 +112,42 @@
 				en,
 				Base,
 			);
-			mainGroup = F2A35B7329B4B8B6004F4CF6;
-			productRefGroup = F2A35B7D29B4B8B6004F4CF6 /* Products */;
+			mainGroup = F27E467529B567900026119D;
+			productRefGroup = F27E467F29B567900026119D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F2A35B7B29B4B8B6004F4CF6 /* AppArtistryCreativeSuite */,
+				F27E467D29B567900026119D /* CreativeCanvas */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F2A35B7A29B4B8B6004F4CF6 /* Resources */ = {
+		F27E467C29B567900026119D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2A35B8829B4B8B7004F4CF6 /* Preview Assets.xcassets in Resources */,
-				F2A35B8429B4B8B7004F4CF6 /* Assets.xcassets in Resources */,
+				F27E468A29B567910026119D /* Preview Assets.xcassets in Resources */,
+				F27E468629B567910026119D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F2A35B7829B4B8B6004F4CF6 /* Sources */ = {
+		F27E467A29B567900026119D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2A35B8229B4B8B6004F4CF6 /* ContentView.swift in Sources */,
-				F2A35B8029B4B8B6004F4CF6 /* AppArtistryCreativeSuiteApp.swift in Sources */,
+				F27E468429B567900026119D /* ContentView.swift in Sources */,
+				F27E468229B567900026119D /* CreativeCanvasApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F2A35B8929B4B8B7004F4CF6 /* Debug */ = {
+		F27E468B29B567910026119D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		F2A35B8A29B4B8B7004F4CF6 /* Release */ = {
+		F27E468C29B567910026119D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,18 +256,17 @@
 			};
 			name = Release;
 		};
-		F2A35B8C29B4B8B7004F4CF6 /* Debug */ = {
+		F27E468E29B567910026119D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = AppArtistryCreativeSuite/AppArtistryCreativeSuite.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CreativeCanvas/CreativeCanvas.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AppArtistryCreativeSuite/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CreativeCanvas/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = AACS;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -283,7 +282,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AppArtistry.AppArtistryCreativeSuite;
+				PRODUCT_BUNDLE_IDENTIFIER = AppArtistry.CreativeCanvas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -293,18 +292,17 @@
 			};
 			name = Debug;
 		};
-		F2A35B8D29B4B8B7004F4CF6 /* Release */ = {
+		F27E468F29B567910026119D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = AppArtistryCreativeSuite/AppArtistryCreativeSuite.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CreativeCanvas/CreativeCanvas.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AppArtistryCreativeSuite/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CreativeCanvas/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = AACS;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -320,7 +318,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AppArtistry.AppArtistryCreativeSuite;
+				PRODUCT_BUNDLE_IDENTIFIER = AppArtistry.CreativeCanvas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -333,25 +331,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F2A35B7729B4B8B6004F4CF6 /* Build configuration list for PBXProject "AppArtistryCreativeSuite" */ = {
+		F27E467929B567900026119D /* Build configuration list for PBXProject "CreativeCanvas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2A35B8929B4B8B7004F4CF6 /* Debug */,
-				F2A35B8A29B4B8B7004F4CF6 /* Release */,
+				F27E468B29B567910026119D /* Debug */,
+				F27E468C29B567910026119D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2A35B8B29B4B8B7004F4CF6 /* Build configuration list for PBXNativeTarget "AppArtistryCreativeSuite" */ = {
+		F27E468D29B567910026119D /* Build configuration list for PBXNativeTarget "CreativeCanvas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2A35B8C29B4B8B7004F4CF6 /* Debug */,
-				F2A35B8D29B4B8B7004F4CF6 /* Release */,
+				F27E468E29B567910026119D /* Debug */,
+				F27E468F29B567910026119D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F2A35B7429B4B8B6004F4CF6 /* Project object */;
+	rootObject = F27E467629B567900026119D /* Project object */;
 }

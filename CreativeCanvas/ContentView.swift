@@ -1,6 +1,7 @@
 //
 //  ContentView.swift
-//  AppArtistryCreativeSuite
+//  CreativeCanvas
+//
 //
 
 import SwiftUI
