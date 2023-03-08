@@ -5,7 +5,7 @@
 import SwiftUI
 
 enum ActiveSheet: Identifiable {
-    case rainbowLoading, batman
+    case rainbowLoading, batman, retroFlipStepper
     var id: ActiveSheet { self }
 }
 
@@ -26,6 +26,15 @@ struct ContentView: View {
                         activeSheet = .rainbowLoading
                     }
 
+                    ProjectRowView(
+                        icon: "🤸‍♀️",
+                        title: "Retro Flip Stepper",
+                        subtitle: "Aesthetic retro style flip stepper!"
+                    )
+                    .onTapGesture {
+                        activeSheet = .retroFlipStepper
+                    }
+
                 }
                 .padding(20)
                 .frame(
@@ -40,10 +49,13 @@ struct ContentView: View {
             .sheet(item: $activeSheet) { sheet in
                 switch sheet {
                 case .rainbowLoading:
-                    RainbowLoadingView()
+                    FlipStepperView()
                         .preferredColorScheme(.dark)
                 case .batman:
                     Text("Work in progress")
+                case .retroFlipStepper:
+                    FlipStepperView()
+                        .preferredColorScheme(.dark)
                 }
             }
         }
