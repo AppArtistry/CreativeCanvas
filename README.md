@@ -21,3 +21,8 @@ Are you an iOS developer looking to take your iOS app design to the next level? 
 ### 🌈 Loading
 ![Loading Animation](https://github.com/AppArtistry/CreativeCanvas/blob/master/Images/RainbowLoading.gif)
 
+### 🦇 Batman
+![Batman](https://github.com/AppArtistry/CreativeCanvas/blob/master/Images/Batman.gif)
+
+### 🤸‍♀️ Flip
+![Flip](https://github.com/AppArtistry/CreativeCanvas/blob/master/Images/Flip.gif)
