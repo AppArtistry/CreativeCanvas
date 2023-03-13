@@ -31,7 +31,7 @@ struct ContentView: View {
 
                     ProjectRowView(
                         icon: "🦇",
-                        title: "Batman Logo Animation",
+                        title: "Batman",
                         subtitle: "Lightbar, batman logo and blend animation"
                     )
                     .onTapGesture {
@@ -81,7 +81,7 @@ struct ContentView: View {
                     FlipStepperView()
                         .preferredColorScheme(.dark)
                 case .batman:
-                    Text("Work in progress")
+                    BatmanView()
                 case .retroFlipStepper:
                     FlipStepperView()
                         .preferredColorScheme(.dark)
