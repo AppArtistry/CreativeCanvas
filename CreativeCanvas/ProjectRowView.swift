@@ -13,7 +13,7 @@ struct ProjectRowView: View {
         VStack(alignment: .leading, spacing: 10) {
             HStack {
                 Text(icon)
-                    .font(.system(size: 40))
+                    .font(.system(size: 36))
                 Text(title)
                     .font(.title)
                 Spacer()

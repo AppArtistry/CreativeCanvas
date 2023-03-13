@@ -4,12 +4,6 @@
 
 import SwiftUI
 
-enum ActiveSheet: Identifiable {
-    case rainbowLoading, batman, retroFlipStepper
-    var id: ActiveSheet { self }
-}
-
-
 struct ContentView: View {
     @State private var activeSheet: ActiveSheet?
 
@@ -19,7 +13,7 @@ struct ContentView: View {
                 VStack(alignment: .leading, spacing: 10) {
                     ProjectRowView(
                         icon: "🌈",
-                        title: "Loading...",
+                        title: "Beachball Loading",
                         subtitle: "Apple's notorious beach ball loading animation."
                     )
                     .onTapGesture {
@@ -35,6 +29,41 @@ struct ContentView: View {
                         activeSheet = .retroFlipStepper
                     }
 
+                    ProjectRowView(
+                        icon: "🦇",
+                        title: "Batman Logo Animation",
+                        subtitle: "Lightbar, batman logo and blend animation"
+                    )
+                    .onTapGesture {
+                        activeSheet = .batman
+                    }
+
+                    ProjectRowView(
+                        icon: "🔘",
+                        title: "Twist Text Toggle",
+                        subtitle: "Toggle button with twist text animation."
+                    )
+                    .onTapGesture {
+                        activeSheet = .onOffToggle
+                    }
+
+                    ProjectRowView(
+                        icon: "💻",
+                        title: "Progess Step",
+                        subtitle: "3 Step progress indicator."
+                    )
+                    .onTapGesture {
+                        activeSheet = .progressStep
+                    }
+
+                    ProjectRowView(
+                        icon: "🎙️",
+                        title: "Podcast",
+                        subtitle: "Podcast details view with time animation."
+                    )
+                    .onTapGesture {
+                        activeSheet = .podcast
+                    }
                 }
                 .padding(20)
                 .frame(
@@ -56,6 +85,18 @@ struct ContentView: View {
                 case .retroFlipStepper:
                     FlipStepperView()
                         .preferredColorScheme(.dark)
+                case .onOffToggle:
+                    Text("Work in progress")
+//                    OnOffToggleView()
+//                        .preferredColorScheme(.dark)
+                case .progressStep:
+                    Text("Work in progress")
+//                    ProgressStepView()
+//                        .preferredColorScheme(.dark)
+                case .podcast:
+                    Text("Work in progress")
+//                    PodcastView()
+//                        .preferredColorScheme(.dark)
                 }
             }
         }

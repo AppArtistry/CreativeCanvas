@@ -74,7 +74,6 @@ struct BatmanView: View {
                     }
                 }
             }
-
         }.ignoresSafeArea()
             .onAppear {
                 withAnimation(.easeIn(duration: 6)) {

@@ -17,6 +17,10 @@
 		F27E469A29B806FF0026119D /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E469929B806FF0026119D /* Triangle.swift */; };
 		F27E469C29B807580026119D /* FlipStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E469B29B807580026119D /* FlipStepperView.swift */; };
 		F27E469F29B88E3A0026119D /* HalfCapsuleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E469E29B88E3A0026119D /* HalfCapsuleShape.swift */; };
+		F27E46AC29B9535A0026119D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E46AB29B9535A0026119D /* Color.swift */; };
+		F27E46AE29B953850026119D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E46AD29B953850026119D /* View.swift */; };
+		F27E46BC29BC95430026119D /* ActiveSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E46BB29BC95430026119D /* ActiveSheet.swift */; };
+		F27E46BF29BD35530026119D /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E46BE29BD35530026119D /* CornerRadius.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		F27E469929B806FF0026119D /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		F27E469B29B807580026119D /* FlipStepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipStepperView.swift; sourceTree = "<group>"; };
 		F27E469E29B88E3A0026119D /* HalfCapsuleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfCapsuleShape.swift; sourceTree = "<group>"; };
+		F27E46AB29B9535A0026119D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F27E46AD29B953850026119D /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		F27E46BB29BC95430026119D /* ActiveSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSheet.swift; sourceTree = "<group>"; };
+		F27E46BE29BD35530026119D /* CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,8 @@
 		F27E468029B567900026119D /* CreativeCanvas */ = {
 			isa = PBXGroup;
 			children = (
+				F27E46BD29BC954B0026119D /* Utilities */,
+				F27E46AA29B9534B0026119D /* Extension */,
 				F27E469D29B88E1B0026119D /* View */,
 				F27E469829B806EE0026119D /* Shape */,
 				F27E468129B567900026119D /* CreativeCanvasApp.swift */,
@@ -101,6 +111,24 @@
 				F27E469B29B807580026119D /* FlipStepperView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F27E46AA29B9534B0026119D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F27E46AB29B9535A0026119D /* Color.swift */,
+				F27E46AD29B953850026119D /* View.swift */,
+				F27E46BE29BD35530026119D /* CornerRadius.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F27E46BD29BC954B0026119D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F27E46BB29BC95430026119D /* ActiveSheet.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,13 +202,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F27E468429B567900026119D /* ContentView.swift in Sources */,
+				F27E46BC29BC95430026119D /* ActiveSheet.swift in Sources */,
+				F27E46BF29BD35530026119D /* CornerRadius.swift in Sources */,
 				F27E469529B7E2E90026119D /* ProjectRowView.swift in Sources */,
 				F27E469F29B88E3A0026119D /* HalfCapsuleShape.swift in Sources */,
+				F27E46AC29B9535A0026119D /* Color.swift in Sources */,
 				F27E469729B7E41C0026119D /* BatmanView.swift in Sources */,
 				F27E469C29B807580026119D /* FlipStepperView.swift in Sources */,
 				F27E469A29B806FF0026119D /* Triangle.swift in Sources */,
 				F27E468229B567900026119D /* CreativeCanvasApp.swift in Sources */,
 				F27E469129B577080026119D /* RainbowLoadingView.swift in Sources */,
+				F27E46AE29B953850026119D /* View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

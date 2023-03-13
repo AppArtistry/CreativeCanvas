@@ -1,6 +1,5 @@
 //
 //  RainbowLoadingView.swift
-//  CreativeCanvas
 //
 
 import SwiftUI
