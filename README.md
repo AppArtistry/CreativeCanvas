@@ -5,11 +5,11 @@ Have a look at CreativeCanvas! With its extensive set of utility functions and e
 
 
 ## Feel free to take a look at
-* [Youtube](https://www.youtube.com/appartistryHD)
+* [Youtube](https://www.youtube.com/@appartistryHD?sub_confirmation=1)
 * [Newsletter](https://appartistry.substack.com/)
 * [Instagram](https://www.instagram.com/appartistryhd/)
 * [Medium](https://medium.com/@appartistry)
-* [Reddit](https://www.reddit.com/user/appartistry)
+* [Reddit](https://www.reddit.com/user/appartistryHD)
 * [Twitter](https://twitter.com/AppArtistryHD)
 * [Gumraod](https://appartistry.gumroad.com/)
 * [Website](https://solo.to/appartistry)
@@ -28,4 +28,3 @@ FYI: The quality of the animations appears to be low because of the use of Anima
 
 ------
 ## Get CreativeCanvasPro in [Patreon](https://www.patreon.com/AppArtistry)
-![Membership Level](https://github.com/AppArtistry/CreativeCanvas/blob/master/Images/MembershipLevel.png)
