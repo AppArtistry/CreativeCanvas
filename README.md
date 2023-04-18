@@ -1,7 +1,5 @@
 # CreativeCanvas
-Are you an iOS developer looking to take your iOS app design to the next level? 
-
-Have a look at CreativeCanvas! With its extensive set of utility functions and extensions, CreativeCanvas makes it easy for iOS developers to master SwiftUI, create eye-catching animations, and implement smooth transitions in their apps. From basic concepts to advanced techniques, the suite's comprehensive resources help you to master the app gamification. With CreativeCanvas, you'll not only develop cutting-edge UIs but also leave a lasting impression on your users. So why wait? Elevate your SwiftUI development skills to the next level!
+Hello there! If you're an iOS developer looking to enhance your app design skills, check out CreativeCanvas! It has a helpful set of extensions and tricks that can assist you in becoming a better SwiftUI dev, helping you for generating beautiful animations, and implementing smooth transitions into your apps. Resources avaialble in the project can aid you in gamifying your app and leaving a good impression on your users. 
 
 
 ## Feel free to take a look at
@@ -17,7 +15,7 @@ Have a look at CreativeCanvas! With its extensive set of utility functions and e
 ------
 FYI: The quality of the animations appears to be low because of the use of Animated GIF format.
 
-### 🌈 Loading
+### ⏳ Loading
 ![Loading Animation](https://github.com/AppArtistry/CreativeCanvas/blob/master/Images/RainbowLoading.gif)
 
 ### 🦇 Batman
